@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 222 47% 4%;
+  --foreground: 210 40% 98%;
+  --card: 222 47% 7%;
+  --card-foreground: 210 40% 98%;
+  --primary: 187 92% 45%;
+  --primary-foreground: 222 47% 4%;
+  --muted: 217 33% 14%;
+  --muted-foreground: 215 20% 65%;
+  --border: 217 33% 17%;
+}
+
+body {
+  background-color: #030712;
+  color: #f8fafc;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Glassmorphism Classes */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(51, 65, 85, 0.55);
+}
+
+.glass-panel-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-hover:hover {
+  border-color: rgba(6, 182, 212, 0.45);
+  box-shadow: 0 0 20px -5px rgba(6, 182, 212, 0.15);
+}
+
+.glass-input {
+  background: rgba(2, 6, 23, 0.65);
+  border: 1px solid rgba(51, 65, 85, 0.7);
+  color: #f1f5f9;
+}
+
+.glass-input:focus {
+  border-color: #06b6d4;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.2);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(51, 65, 85, 0.6);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.8);
+}

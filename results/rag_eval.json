@@ -1,0 +1,162 @@
+{
+  "k": 3,
+  "num_queries": 10,
+  "mean_precision_at_k": 0.4333333333333333,
+  "mean_recall_at_k": 1.0,
+  "mean_reciprocal_rank": 1.0,
+  "per_query": [
+    {
+      "qid": "q1",
+      "question": "What INR range should be targeted during warfarin therapy?",
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieved_doc_ids": [
+        "warfarin_label_01",
+        "warfarin_dailymed_01",
+        "warfarin_label_02"
+      ],
+      "relevant_doc_ids": [
+        "warfarin_label_01"
+      ]
+    },
+    {
+      "qid": "q2",
+      "question": "Which genetic factors affect warfarin dose requirements?",
+      "precision_at_k": 0.6666666666666666,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieved_doc_ids": [
+        "warfarin_pubmed_01",
+        "warfarin_label_01",
+        "warfarin_label_02"
+      ],
+      "relevant_doc_ids": [
+        "warfarin_label_01",
+        "warfarin_pubmed_01"
+      ]
+    },
+    {
+      "qid": "q3",
+      "question": "What drug interactions increase bleeding risk with warfarin?",
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieved_doc_ids": [
+        "warfarin_label_02",
+        "warfarin_label_01",
+        "warfarin_pubmed_01"
+      ],
+      "relevant_doc_ids": [
+        "warfarin_label_02"
+      ]
+    },
+    {
+      "qid": "q4",
+      "question": "How often should INR be monitored when starting warfarin?",
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieved_doc_ids": [
+        "warfarin_dailymed_01",
+        "warfarin_label_01",
+        "warfarin_pubmed_01"
+      ],
+      "relevant_doc_ids": [
+        "warfarin_dailymed_01"
+      ]
+    },
+    {
+      "qid": "q5",
+      "question": "What serum digoxin concentration range is considered therapeutic?",
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieved_doc_ids": [
+        "digoxin_label_01",
+        "digoxin_dailymed_01",
+        "digoxin_pubmed_01"
+      ],
+      "relevant_doc_ids": [
+        "digoxin_label_01"
+      ]
+    },
+    {
+      "qid": "q6",
+      "question": "What electrolyte disturbances increase digoxin toxicity risk?",
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieved_doc_ids": [
+        "digoxin_dailymed_01",
+        "digoxin_label_01",
+        "digoxin_pubmed_01"
+      ],
+      "relevant_doc_ids": [
+        "digoxin_dailymed_01"
+      ]
+    },
+    {
+      "qid": "q7",
+      "question": "How does renal function affect digoxin dosing and clearance?",
+      "precision_at_k": 0.6666666666666666,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieved_doc_ids": [
+        "digoxin_pubmed_01",
+        "digoxin_dailymed_01",
+        "digoxin_label_01"
+      ],
+      "relevant_doc_ids": [
+        "digoxin_label_01",
+        "digoxin_pubmed_01"
+      ]
+    },
+    {
+      "qid": "q8",
+      "question": "What AUC/MIC target is recommended for vancomycin in serious MRSA infection?",
+      "precision_at_k": 0.6666666666666666,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieved_doc_ids": [
+        "vancomycin_pubmed_01",
+        "vancomycin_label_01",
+        "vancomycin_dailymed_01"
+      ],
+      "relevant_doc_ids": [
+        "vancomycin_label_01",
+        "vancomycin_pubmed_01"
+      ]
+    },
+    {
+      "qid": "q9",
+      "question": "Is AUC-guided or trough-guided vancomycin dosing associated with less nephrotoxicity?",
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieved_doc_ids": [
+        "vancomycin_pubmed_01",
+        "vancomycin_dailymed_01",
+        "vancomycin_label_01"
+      ],
+      "relevant_doc_ids": [
+        "vancomycin_pubmed_01"
+      ]
+    },
+    {
+      "qid": "q10",
+      "question": "What causes vancomycin flushing syndrome and how is it managed?",
+      "precision_at_k": 0.3333333333333333,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieved_doc_ids": [
+        "vancomycin_label_01",
+        "vancomycin_dailymed_01",
+        "vancomycin_pubmed_01"
+      ],
+      "relevant_doc_ids": [
+        "vancomycin_label_01"
+      ]
+    }
+  ]
+}
